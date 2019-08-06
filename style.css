@@ -1,0 +1,201 @@
+html {
+    background: #000;
+    cursor: none;
+    overflow: hidden;
+}
+
+body {
+    /*
+    Aldrich
+    Arimo
+    Audiowide
+    B612 Mono
+    */
+    font-family: 'Aldrich';
+    color: #fff;
+    height: calc(100% - 8em);
+    width: calc(100% - 8em);
+    margin: 4em;
+    position: absolute;
+}
+
+.top {
+    top: 0;
+    height: 40%;
+    width: 35%;
+}
+
+.top.right {
+    text-align: right;
+    float: right;
+    width: 40%;
+}
+
+.bottom {
+    bottom: 0;
+    height: 30%;
+    width: 35%;
+    vertical-align: bottom;
+    position: absolute;
+}
+
+.bottom.right {
+    right: 0;
+    text-align: right;
+    float: right;
+}
+
+.bottom.left {
+    float: left;
+    word-wrap: break-word;
+    width: 60%;
+}
+
+#time {
+    font-size: 4em;
+}
+
+#date {
+    font-size: 3em;
+}
+
+.top.left {
+    float: left;
+    word-wrap: break-word;
+}
+
+#city {
+    font-size: 3em;
+    padding-bottom: .5em;
+}
+
+#weather {
+    padding-bottom: 1em;
+}
+
+.large-weather-icon {
+    height: 200px;
+    width: 200px;
+    padding-right: 1em;
+}
+
+.small-weather-icon {
+    height: 50px;
+    width: 50px;
+    align-content: center;
+}
+
+.temp {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 3em;
+    text-align: left; 
+    padding-bottom: 22%;
+}
+
+.forecast-container {
+    width: 80%;
+    padding-bottom: .5em;
+}
+
+.forecast {
+    width: 23%;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+}
+
+.small-temp {
+    font-size: 75%;
+}
+
+#forecast1 {
+    margin-left: 0;
+}
+
+#forecast4 {
+    margin-right: 0;
+}
+
+#cal {
+    font-size: 2.5em;
+    float: right;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.calDay {
+    border-bottom: white solid 1px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.calEvent {
+    padding-top: 10px;
+}
+
+.sun-icon {
+    height: 60px;
+    width: 60px;
+    padding-right: 1em;
+    float: left;
+}
+
+#sunrise-time {
+    font-size: 1.5em;
+    padding-top: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    height: 60px;
+}
+
+#sunset-time {
+    margin-top: 10px;
+    font-size: 1.5em;
+    display: inline-block;
+    overflow: hidden;
+    height: 60px;
+}
+
+#reddit {
+    font-size: 3em;
+    vertical-align: bottom;
+}
+
+.reddit-thumbnail {
+    filter: grayscale(100%);
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.word {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 2em;
+}
+
+#word {
+    font-size: .8em;
+}
+
+#wordof {
+    font-size: .5em;
+}
+
+#def {
+    font-size: .4em;
+}
+
+#twitch {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.twitchIcon {
+    height: 75px;
+    width: 75px;
+    float: left;
+}

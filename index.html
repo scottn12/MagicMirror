@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Magic Mirror</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/favico.ico" type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top left">
+      <div id="city"></div>
+      <div id="weather"></div>
+      <div class="forecast-container"> <!--Forecast-->
+        <span class="forecast" id="forecast1"></span>
+        <span class="forecast" id="forecast2"></span>
+        <span class="forecast" id="forecast3"></span>
+        <span class="forecast" id="forecast4"></span>
+      </div>
+      <div id="sunrise">
+        <img src="img/sunrise.png" class="sun-icon">
+        <span id="sunrise-time"></span>
+      </div>
+      <div id="sunset">
+        <img src="img/sunset.png" class="sun-icon">
+        <span id="sunset-time"></span>
+      </div>
+    </div>
+    <div class="top right">
+      <div id="time"></div>
+      <div id="date"></div>
+      <div id="cal"></div>
+    </div>
+    <div class="bottom left">
+      <div class="word"><span id="wordof">Word of the day: </span><strong id="word"></strong><br><span id="def"></span></div>
+    </div>
+    <div class="bottom right">
+      <div id="twitch">
+        <div>
+          <img src="img/twitch.png" class="twitchIcon">
+          <h1 style="padding-top: 10px; padding-bottom: 6px;">Live Streams:</h1>
+        </div>
+        <div id="twitchContent"></div>
+      </div>
+      <div id="reddit"></div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

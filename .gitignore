@@ -1,0 +1,5 @@
+cal/credentials.json
+/cal/events.json
+/cal/token.pickle
+/.vscode
+MagicMirror.code-workspace
